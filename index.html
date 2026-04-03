@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>अहिल्याई गृहउद्योग</title>
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
     <style>
@@ -19,92 +18,110 @@
         header {
             background: linear-gradient(to right, #ff512f, #dd2476);
             color: white;
+            padding: 30px;
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        section {
             padding: 30px 20px;
-            font-size: 40px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
         }
 
-        main {
-            padding: 20px;
-        }
-
-        .info {
+        .card {
             background: white;
             margin: 20px auto;
             padding: 20px;
             width: 85%;
             border-radius: 15px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            transition: transform 0.3s;
         }
 
-        .info:hover {
-            transform: scale(1.03);
-        }
-
-        h2, h3 {
+        h2 {
             color: #dd2476;
         }
 
         p {
             font-size: 18px;
-            color: #333;
         }
 
-        img {
-            width: 250px;
-            border-radius: 15px;
+        .welcome img {
+            width: 200px;
+            border-radius: 50%;
             margin-top: 10px;
         }
 
-        footer {
-            background: linear-gradient(to right, #dd2476, #ff512f);
-            color: white;
-            padding: 15px;
-            margin-top: 20px;
-            font-size: 14px;
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
         }
 
         .phone {
-            font-weight: bold;
             font-size: 20px;
+            font-weight: bold;
             color: #ff512f;
+        }
+
+        a {
+            color: #dd2476;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #dd2476;
+            color: white;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        🌸 अहिल्याई गृहउद्योग 🌸
-    </header>
+<header>
+    🌸 अहिल्याई गृहउद्योग 🌸
+</header>
 
-    <main>
+<!-- Welcome Section -->
+<section class="welcome">
+    <div class="card">
+        <h2>आपले सहर्ष स्वागत आहे</h2>
+        <p>अहिल्याई गृहउद्योग मध्ये आपले मनःपूर्वक स्वागत आहे.</p>
+        
+        <!-- Smiling Woman Image -->
+        <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png" alt="Welcome">
+    </div>
+</section>
 
-        <div class="info">
-            <h2>आपले स्वागत आहे!</h2>
-            <p>अहिल्याई गृहउद्योग मध्ये आपले मनःपूर्वक स्वागत आहे. आम्ही घरगुती आणि पारंपरिक पद्धतीने तयार केलेली उत्पादने ग्राहकांना उपलब्ध करून देतो.</p>
-        </div>
+<!-- Products Section -->
+<section>
+    <div class="card gallery">
+        <h2>Products / आमची उत्पादने</h2>
+        <p>आमची खास उत्पादने: पुरण पोळी,उकडीचे मोदक,बट्टीचे तयार पीठ,येसरपीठ, केळीचे वेफर्स इत्यादी</p>
 
-        <div class="info">
-            <h3>आमची उत्पादने</h3>
-            <p>घरगुती मसाले, पापड, लोणची, चटण्या आणि इतर पारंपरिक पदार्थ उपलब्ध आहेत.</p>
-            
-            <!-- Image -->
-            <img src="product.jpg" alt="उत्पादन">
-        </div>
+        <!-- Sample Images -->
+        <img src="https://via.placeholder.com/200" alt="Product 1">
+        <img src="https://via.placeholder.com/200" alt="Product 2">
+        <img src="https://via.placeholder.com/200" alt="Product 3">
+    </div>
+</section>
 
-        <div class="info">
-            <h3>संपर्क करा</h3>
-            <p class="phone">फोन नंबर:- ८३२९४०७१८१</p>
-        </div>
+<!-- Contact Section -->
+<section>
+    <div class="card">
+        <h2>संपर्क करा</h2>
+        <p class="phone">ऑनलाईन ओर्डर साठी संपर्क करा या नंबरावर:- ८३२९४०७१८१ पत्ता: अमळनेर जिल्हा.जळगाव</p>
+        <p>
+            Instagram: 
+            <a href="https://www.instagram.com/ahilyagruhudyog?igsh=MWtveW85M3hjYWtiZg==" target="_blank">
+                @ahilyagruhudyog
+            </a>
+        </p>
+    </div>
+</section>
 
-    </main>
-
-    <footer>
-        © 2026 अहिल्याई गृहउद्योग | सर्व हक्क राखीव
-    </footer>
+<footer>
+    © 2026 अहिल्याई गृहउद्योग
+</footer>
 
 </body>
 </html>
