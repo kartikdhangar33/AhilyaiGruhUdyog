@@ -21,11 +21,6 @@
             text-align: center;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 32px;
-        }
-
         section {
             padding: 40px 20px;
             text-align: center;
@@ -49,13 +44,23 @@
             color: #444;
         }
 
-        .banner img {
-            width: 100%;
-            border-radius: 10px;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #ffe4c4;
+            margin: 8px;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
         }
 
         .gallery img {
-            width: 280px;
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
             margin: 10px;
             border-radius: 10px;
             transition: 0.3s;
@@ -91,13 +96,6 @@
     <h1>अहिल्याई गृहउद्योग</h1>
 </header>
 
-<!-- Banner Section -->
-<section class="banner">
-    <div class="card">
-        <img src="banner.jpg" alt="Banner">
-    </div>
-</section>
-
 <!-- Welcome Section -->
 <section>
     <div class="card">
@@ -110,6 +108,53 @@
     </div>
 </section>
 
+<!-- Product Names Section -->
+<section>
+    <div class="card">
+        <h2>आमची उत्पादने</h2>
+        <ul>
+            <li>पुरण पोळी</li>
+            <li>उकडीचे मोदक</li>
+            <li>बट्टीचे तयार पीठ</li>
+            <li>येसर पीठ</li>
+            <li>मसाले</li>
+            <li>केळी-बटाटे वेफर्स</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Product Images Section -->
+<section>
+    <div class="card gallery">
+        <h2>उत्पादनांचे फोटो</h2>
+
+        <!-- Use your actual image names -->
+        <img src="IMG_20250615_195337_029.webp" alt="Banner">
+<img src="IMG20250624093953.jpg" alt="उकडीचे मोदक">
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section>
+    <div class="card">
+        <h2>संपर्क करा</h2>
+        <p class="phone">फोन नंबर:- ८३२९४०७१८१</p>
+        <p>पत्ता:- पाण्याची टाकी, लक्ष्मी नगर, ढेकू रोड, अमळनेर जिल्हा. जळगाव</p>
+        <p>
+            Instagram:
+            <a href="https://www.instagram.com/ahilyagruhudyog?igsh=MWtveW85M3hjYWtiZg==" target="_blank">
+                @ahilyagruhudyog
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 अहिल्याई गृहउद्योग | अवश्य भेट द्या!
+</footer>
+
+</body>
+</html>
 <!-- Products Section -->
 <section>
     <div class="card gallery">
